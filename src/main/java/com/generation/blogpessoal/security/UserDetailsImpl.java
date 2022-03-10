@@ -20,10 +20,10 @@ import org.springframework.security.core.userdetails.UserDetails;
  * 
  * As características descritas na interface UserDetails são:
  * 
- * 1) Credenciais do usuário (Username e Password)
- * 2) As Autorizações do usuário (o que ele pode e não pode fazer),
+ * 1 Credenciais do usuário (Username e Password)
+ * 2 As Autorizações do usuário (o que ele pode e não pode fazer),
  *    através da Collection authorities do tipo GrantedAuthority
- * 3) As Restrições (isAccountNonExpired(), isAccountNonLocked(), 
+ * 3 As Restrições (isAccountNonExpired(), isAccountNonLocked(), 
  *    isCredentialsNonExpired() e isEnabled()) da conta do usuário.
  */
 
