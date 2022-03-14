@@ -25,7 +25,7 @@ private Long id;
 private String descricao;
 //mappedBy da um nome a postagem.
 //Cascade informa que a alteração no tema também altera a postagem.
-@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
+@OneToMany(mappedBy = "tema", cascade = CascadeType.REMOVE)
 @JsonIgnoreProperties("tema")
 private List<PostagemModel> postagem;
 
